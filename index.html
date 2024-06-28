@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body class="container">
+    <loader>
+    <div class="three-body">
+        <div class="three-body__dot"></div>
+        <div class="three-body__dot"></div>
+        <div class="three-body__dot"></div>
+        </div>
+    </loader>
+    <nav id="desktop-nav">
+        <div class="logo">Ammar Syauqi</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Ammar Syauqi</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/dep1.png" alt="My profile picture" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Ammar Syauqi</h1>
+            <p class="section__text__p2">Digital Designer & Programmer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/CV-Ammar Syauqi-ui.pdf')">
+                    View CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/ammar-s-b159b926b/'" />
+                <img src="./assets/github.png" alt="My Github profile" class="icon"
+                    onclick="location.href='https://github.com/ammarsyauqi/'" />
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/dep2.png" alt="Profile picture" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <br />
+                        <p>&#x2022;<b> Design & Marketing (Internship)</b> <br /> Partnership and Special Project (PSPO), IUKL. <br /> April 2024 - July 2024</p> <br />
+                        <p>&#x2022;<b> Graphic Designer (Internship)</b> <br /> Sigma Rectrix Systems (M) Sdn. Bhd. <br /> April 2021 - July 2021 </p> <br />
+                        <p>&#x2022;<b> Freelance Designer and Editor</b> <br /> 2019 - 2023 <br /> 
+                        </p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon" class="icon" />
+                        <h3>Education</h3>
+                        <br /> 
+                        <p>&#x2022;<b>Bachelor of Information Technology Multimedia</b><br /> Infrastructure University
+                            Kuala Lumpur (IUKL)</p>
+                        <br />
+                        <p>&#x2022;<b>Diploma of Visual Interactive Multimedia</b><br /> Infrastructure University Kuala
+                            Lumpur (IUKL)</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        I am Mohammad Ammar Syauqi Bin Zainudin.
+                        
+                        I graduated with a Bachelor's degree in Information Technology Multimedia from Infrastructure University Kuala Lumpur.
+                        
+                        Throughout my academic journey and work experience, I've developed solid foundation in Graphic & Digital Design, Web
+                        Programming, User Interface and User Experience
+                        (UI/UX), Animation, Video & Audio Editing, Programming & Database in Sales & Marketing, Education & Retail Industries.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend & Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Advance</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Advance</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Advance</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Java</h3>
+                                <p>Advance</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Advance</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>MySQL</h3>
+                                <p>Advance</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Advance</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Git</h3>
+                                <p>Advance</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Digital & Graphic Design</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Adobe Illustrator</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Adobe Photoshop</h3>
+                                <p>Expert</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Adobe Animate</h3>
+                                <p>Advance</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Adobe After Effects</h3>
+                                <p>Advance</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Adobe Premier Pro</h3>
+                                <p>Advance</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Adobe XD, Figma</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Blender, Unity, OBS Studio</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project1.png" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">1) Blood Donation Awareness Website Project - HTML, CSS,
+                        JavaScript, PHP</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/ammarsyauqi/DermawanDarahAwarenessphp'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://drive.google.com/file/d/1bc7BJkjWuEt7cO4yWWWen8lahBbioQi0/view?usp=drive_link'">
+                            Video
+                        </button>
+                        <button class="btn btn-color-2"
+                            onclick="window.open('./assets/StoryboardBD-manual.pdf')">Storyboard</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project2.png" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">2) Landing Page - HTML, CSS, JavaScript</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/ammarsyauqi/DermawanDarahIndexOnly'">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://ammarsyauqi.github.io/DermawanDarahIndexOnly/'">Live
+                            Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project3.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">3) Puzzle Slide Game - HTML, CSS, JavaScript</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/ammarsyauqi/puzzle-bd'">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://ammarsyauqi.github.io/puzzle-bd/'">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project4.png" alt="Project 4" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">4) Quiz - HTML, CSS, JavaScript</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/ammarsyauqi/quiz-bd'">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://ammarsyauqi.github.io/quiz-bd/'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project5.png" alt="Project 5" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">5) Word Scramble Game - HTML, CSS, JavaScript</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/ammarsyauqi/wordscramble-bd'">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://ammarsyauqi.github.io/wordscramble-bd/'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project6.png" alt="Project 6" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">6) Memory Game - HTML, CSS, JavaScript</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/ammarsyauqi/memorygame-bd'">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://ammarsyauqi.github.io/memorygame-bd/'">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/pf-awareness.png" alt="Project 7" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">7) Infographics - HTML, CSS, Adobe Animate & After Effect
+                    </h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/ammarsyauqi/AwarenessPages'">Github</button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://ammarsyauqi.github.io/AwarenessPages/index.html'">Live
+                            Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project8.png" alt="Project 8" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Hospital Database in Malaysia - HTML, CSS, PHP</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/ammarsyauqi/HospitalDB'">Github</button>
+                        <!-- <button class="btn btn-color-2 project-btn" onclick="location.href='https://ammarsyauqi.github.io/infographic-ImportanceofBloodDonation/'">Live Demo</button> -->
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project9.png" alt="Project 9" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">3D Floor Plan - Blender</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://drive.google.com/file/d/1hK8izpx4OrBFREMBbboxFY5tYHpbQgaK/view?usp=sharing'">
+                            Video
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project10.png" alt="Project 10" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Lapa Lela Restaurant - Adobe Illustrator & Photoshop</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://drive.google.com/drive/folders/19hgBsnS_-x7xd98IUhw0qntYvO7b-JsE?usp=sharing'">
+                            View
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project11.png" alt="Project 11" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">P-Touch Community - Adobe Illustrator & Photoshop</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2" onclick="window.open('./assets/project11.png')">View</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project12.png" alt="Project 12" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">ANJ Crypto UI - Adobe Illustrator, Figma</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://drive.google.com/file/d/1VY5Z6Ej4h2WqHZL2dg0doYjbnwYrDgrh/view?usp=sharing'">
+                            Video
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project13.png" alt="Project 13" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">3D Bedroom - Blender</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://drive.google.com/file/d/1cbqGB4Fg_0IO29wkRh9Oge1g-BoVWEwA/view?usp=sharing'">
+                            Video
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project14.png" alt="Project 14" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">3D Poly Island - Blender</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://drive.google.com/file/d/1WGL5Mdim2HqKJxcrCgfumpfSF9tKA-vr/view?usp=sharing'">
+                            Video
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project15.png" alt="Project 15" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Maqasid Syariah Animation - Adobe Animate & Illustrator
+                    </h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://drive.google.com/file/d/1hYnw_DZJDTKe7s71YiY4ncIFzbTbvCrV/view?usp=sharing'">
+                            Video
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email icon" class="icon contact-icon email-icon"/>
+                <p><a href="mailto:ammarsyauqi1999@gmail.com">ammarsyauqi1999@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin icon" class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/ammar-s-b159b926b/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Ammar Syauqi, All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

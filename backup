@@ -1,0 +1,64 @@
+<div class="about-containers">
+    <div class="details-container color-container">
+        <div class="article-container">
+            <img src="./assets/project-3.png" alt="Project 4" class="project-img"/>
+        </div>
+        <h2 class="experience-sub-title project-title">Project Four - HTML, CSS, JavaScript</h2>
+        <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ammarsyauqi/quiz-bd'">Github</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://ammarsyauqi.github.io/quiz-bd/'">Live Demo</button>
+        </div>
+    </div>
+    <div class="details-container color-container">
+        <div class="article-container">
+            <img src="./assets/project-2.png" alt="Project 5" class="project-img"/>
+        </div>
+        <h2 class="experience-sub-title project-title">Project Five - HTML, CSS, JavaScript</h2>
+        <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ammarsyauqi/wordscramble-bd'">Github</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://ammarsyauqi.github.io/wordscramble-bd/'">Live Demo</button>
+        </div>
+    </div>
+    <div class="details-container color-container">
+        <div class="article-container">
+            <img src="./assets/project-3.png" alt="Project 6" class="project-img"/>
+        </div>
+        <h2 class="experience-sub-title project-title">Project Six - HTML, CSS, JavaScript</h2>
+        <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ammarsyauqi/memorygame-bd'">Github</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://ammarsyauqi.github.io/memorygame-bd/'">Live Demo</button>
+        </div>
+    </div>
+</div>
+<div class="about-containers">
+    <div class="details-container color-container">
+        <div class="article-container">
+            <img src="./assets/project-3.png" alt="Project 7" class="project-img"/>
+        </div>
+        <h2 class="experience-sub-title project-title">Project Seven - HTML, CSS</h2>
+        <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ammarsyauqi/infographic-BenefitsofBloodDonation'">Github</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://ammarsyauqi.github.io/infographic-BenefitsofBloodDonation/'">Live Demo</button>
+        </div>
+    </div>
+    <div class="details-container color-container">
+        <div class="article-container">
+            <img src="./assets/project-3.png" alt="Project 8" class="project-img"/>
+        </div>
+        <h2 class="experience-sub-title project-title">Project Eight - HTML, CSS</h2>
+        <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ammarsyauqi/infographic-ImportanceofBloodDonation'">Github</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://ammarsyauqi.github.io/infographic-ImportanceofBloodDonation/'">Live Demo</button>
+        </div>
+    </div>
+    <div class="details-container color-container">
+        <div class="article-container">
+            <img src="./assets/project-3.png" alt="Project 9" class="project-img"/>
+        </div>
+        <h2 class="experience-sub-title project-title">Project Nine - HTML, CSS</h2>
+        <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/ammarsyauqi/infographic-TypeofBloodDonation'">Github</button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://ammarsyauqi.github.io/infographic-TypeofBloodDonation/'">Live Demo</button>
+        </div>
+    </div>
+</div>
