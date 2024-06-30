@@ -1,3 +1,54 @@
+@media screen and (max-width: 1920px) {
+    #about {
+      height: 78vh;
+      margin-bottom: 4rem;
+    }
+    #projects {
+      height: 350vh;
+      margin-bottom: 3rem;
+    }
+    #experience {
+      height: 70vh;
+      padding-top: 8rem;
+      margin-bottom: 18rem;
+      
+    }
+}
+@media screen and (max-width: 1680px) {
+    #projects {
+      height: 350vh;
+      margin-bottom: 3rem;
+    }
+}
+@media screen and (max-width: 1600px) {
+    #projects {
+      height: 399vh;
+      margin-bottom: 3rem;
+    }
+}
+@media screen and (max-width: 1440px) {
+    
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    #about {
+      height: 100vh;
+      margin-bottom: 3rem;
+    }
+    #experience {
+      height: 100vh;
+      margin-bottom: 6rem;
+    }
+    #projects {
+      height: 380vh;
+      margin-bottom: 2rem;
+    }
+    .experience-details-container .details-container {
+      width: 352px;
+    }
+}
+
 @media screen and (max-width: 1400px) {
     #profile {
       height: 80vh;
@@ -22,42 +73,27 @@
       height: fit-content;
     }
   }
+
+  @media screen and (max-width: 1366px) {
+    #projects {
+      height: 590vh;
+      margin-bottom: 22rem;
+    }
+    #contact{
+      margin-bottom:10rem;
+    }
+    #contact,
+    footer {
+      height: 26vh; 
+    }
+  }
   
- /* @media screen and (max-width: 1200px) {
-    #desktop-nav {
-      display: none;
+  @media screen and (max-width: 1280px) {
+    #projects {
+      height: 690vh;
+      margin-bottom: 22rem;
     }
-    #hamburger-nav {
-      display: flex;
-    }
-    #experience,
-    .experience-details-container {
-      margin-top: 2rem;
-    }
-    #profile,
-    .section-container {
-      display: block;
-    }
-    .arrow {
-      display: none;
-    }
-    section,
-    .section-container {
-      height: fit-content;
-    }
-    section {
-      margin: 0 5%;
-    }
-    .section__pic-container img{
-      width: 275px;
-      height: 275px;
-      margin: 0 auto 2rem;
-      
-    }
-    .about-containers {
-      margin-top: 0;
-    }
-  } */
+  }
   
   @media screen and (max-width: 1200px) {
 
@@ -140,6 +176,7 @@
       bottom: 59%;
       }
   }
+  
   @media screen and (max-width: 820px) {
     
     #contact,
