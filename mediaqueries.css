@@ -33,15 +33,16 @@
       margin-bottom: 6rem;
     }
     #about {
-      height: 100vh;
-      margin-bottom: 3rem;
+      height: 120vh;
+      margin-bottom: 1rem;
     }
     #experience {
+      padding-top: 2rem;
       height: 100vh;
-      margin-bottom: 6rem;
+      margin-bottom: 10rem;
     }
     #projects {
-      height: 380vh;
+      height: 450vh;
       margin-bottom: 2rem;
     }
     .experience-details-container .details-container {
