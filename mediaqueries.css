@@ -152,6 +152,19 @@
       bottom: 55%;
       }
   }
+  @media screen and (max-width: 800px) {
+    
+    #contact,
+    footer {
+      height: 50vh;
+      padding-bottom: 3rem;
+    }
+    .three-body{
+      left: 45%;
+      bottom: 55%;
+      }
+  }
+
   @media screen and (max-width: 780px) {
     #profile {
       height: 62vh;
@@ -160,6 +173,18 @@
     #contact,
     footer {
       height: 37vh;
+      padding-bottom: 2rem;
+    }
+    .three-body{
+      left: 45%;
+      bottom: 45%;
+      }
+  }
+
+  @media screen and (max-width: 712px) {
+    #contact,
+    footer {
+      height: 45vh;
       padding-bottom: 2rem;
     }
     .three-body{
@@ -235,7 +260,7 @@
   @media screen and (max-width: 430px) {
     #projects {
       height: 855vh;
-      margin-bottom: 5rem;
+      margin-bottom: 10rem;
     }
     #contact,
     footer {
@@ -328,5 +353,114 @@
     left: 40%;
     bottom: 45%;
     }
+  }
+  
+  @media screen and (max-width: 375px) {
+    #profile {
+      height: 90vh;
+      margin-bottom: 5rem;
+    }
+    
+    #projects {
+      height: 1185vh;
+      margin-bottom: 5rem;
+    }
+
+    #contact,
+    footer {
+      height: 36vh;
+      padding-bottom: 4rem;
+    }
+
+    .three-body{
+    left: 40%;
+    bottom: 45%;
+    }
+
+  }
+
+
+  @media screen and (max-height: 740px) {
+    #profile {
+      height: 90vh;
+      margin-bottom: 5rem;
+    }
+    
+    #projects {
+      height: 1020vh;
+      margin-bottom: 5rem;
+    }
+
+    #contact,
+    footer {
+      height: 34vh;
+      padding-bottom: 2rem;
+    }
+
+    .three-body{
+    left: 40%;
+    bottom: 45%;
+    }
+
+  }
+  
+  @media screen and (max-height: 640px) {
+    #profile {
+      height: 90vh;
+      margin-bottom: 5rem;
+    }
+    
+    #projects {
+      height: 1190vh;
+      margin-bottom: 5rem;
+    }
+
+    #contact,
+    footer {
+      height: 34vh;
+      padding-bottom: 4rem;
+    }
+
+    .three-body{
+    left: 40%;
+    bottom: 45%;
+    }
+
+  }
+
+  @media screen and (max-height: 658px) {
+    #projects{
+      height: 1190vh;
+    }
+    .contact-info-upper-container {
+      width: 98.5%;
+    }
+    #contact,
+    footer {
+      height: 34vh;
+      padding-bottom: 3rem;
+    }
+    .three-body{
+    left: 38%;
+    bottom: 45%;
+    }
+
+  }
+
+  @media screen and (max-height: 640px) {
+    #projects{
+      height: 1190vh;
+      margin-bottom: 10rem;
+    }
+    #contact,
+    footer {
+      height: 40vh;
+      padding-bottom: 2rem;
+    }
+    .three-body{
+    left: 38%;
+    bottom: 45%;
+    }
+
   }
 
