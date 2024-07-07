@@ -192,6 +192,7 @@
       bottom: 55%;
       }
   }
+  
   @media screen and (max-width: 1024px) and (max-height: 768px) {
     #projects {
       height: 320rem;
@@ -250,6 +251,35 @@
     .three-body{
       left: 45%;
       bottom: 45%;
+      }
+  }
+  @media screen and (max-width: 720px) and (max-height: 1600px) {
+    #hamburger-nav {
+      margin-top: -4rem;
+    }
+    #profile {
+      height: 45vh;
+      margin-bottom: 1rem;
+    }
+    #about{
+      height: 65vh;
+      margin-bottom: 10rem;
+    }
+    #projects {
+      height: 550vh;
+    }
+
+    #contact{
+      padding-top: 10rem;
+    }
+
+    footer {
+      padding-bottom: 30rem;
+    }
+    
+    .three-body{
+      left: 45%;
+      bottom: 75%;
       }
   }
 
@@ -369,6 +399,10 @@
   }
 
   @media screen and (max-width: 414px) and (max-height: 896px) {
+    #profile {
+      height: 80vh;
+      margin-bottom: 5rem;
+    }
     #about{
       height: 160vh;
       margin-bottom: 10rem;
@@ -385,10 +419,7 @@
       margin-bottom: 0rem;
     }
 
-    #profile {
-      height: 80vh;
-      margin-bottom: 5rem;
-    }
+    
 
     .three-body{
       left: 40%;
