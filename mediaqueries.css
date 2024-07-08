@@ -1,3 +1,19 @@
+@media screen and (max-width: 2560px) and (max-height: 1440px){
+    #about {
+      height: 65vh;
+      margin-bottom: 15rem;
+    }
+    #projects {
+      height: 325vh;
+      margin-bottom: 3rem;
+    }
+    #experience {
+      height: 55vh;
+      padding-top: 8rem;
+      margin-bottom: 29rem;
+      
+    }
+}
 @media screen and (max-width: 1920px) and (max-height: 1080px){
     #about {
       height: 78vh;
@@ -102,6 +118,26 @@
       height: 15vh; 
       margin-bottom: 5rem;
     }
+  }
+  @media screen and (max-width: 768px) and (max-height: 1024px) {
+    #about {
+      padding: auto;
+    }
+    #experience {
+      padding-top: 20rem;
+    }
+
+    #contact {
+      position: relative;
+      top: 39rem;
+
+    }
+
+    footer  {
+      padding-top: 30rem;
+      margin-bottom: 0;
+    }
+    
   }
   
   @media screen and (max-width: 1200px) {
@@ -213,16 +249,21 @@
       }
   }
   
-  @media screen and (max-width: 820px) {
-    
+  @media screen and (max-width: 820px) and (max-height: 1880px) {
+    #contact {
+      padding-top: 85rem;
+    }
     #contact,
     footer {
       height: 45vh;
-      padding-bottom: 3rem;
+      margin-top: 20rem;
+      padding-bottom: 0;
+      margin-bottom: 2rem;
+
     }
     .three-body{
       left: 45%;
-      bottom: 55%;
+      bottom: 59%;
       }
   }
   @media screen and (max-width: 800px) {
@@ -254,9 +295,7 @@
       }
   }
   @media screen and (max-width: 720px) and (max-height: 1600px) {
-    #hamburger-nav {
-      margin-top: -4rem;
-    }
+    
     #profile {
       height: 45vh;
       margin-bottom: 1rem;
@@ -359,15 +398,22 @@
       }
   }
 
-  @media screen and (max-width: 430px) {
+  @media screen and (max-width: 430px) and (max-height: 932px) {
+    #about {
+      height: 140vh;
+    }
     #projects {
       height: 855vh;
-      margin-bottom: 10rem;
+      margin-bottom: 25rem;
+    }
+    #contact {
+      padding-top: 0;
+      padding-bottom: 20rem;
     }
     #contact,
     footer {
       height: 32vh;
-      padding-bottom: 2rem;
+      margin-bottom: 0;
     }
     .three-body{
       left: 40%;
@@ -401,18 +447,18 @@
   @media screen and (max-width: 414px) and (max-height: 896px) {
     #profile {
       height: 80vh;
-      margin-bottom: 5rem;
+      margin-bottom: 2rem;
     }
     #about{
-      height: 160vh;
-      margin-bottom: 10rem;
+      height: 120vh;
+      margin-bottom: 15rem;
     }
     #projects {
-      height: 820vh;
+      height: 770vh;
     }
 
     #contact{
-      margin-top: 50rem;
+      margin-top: 40rem;
     }
 
     footer {
@@ -427,17 +473,23 @@
       }
   }
   @media screen and (max-width: 414px) and (max-height: 736px) {
+    #about{
+      height: 180vh;
+      margin-bottom: 15rem;
+    }
+    
     #projects {
       height: 1330vh;
       margin-bottom: 5rem;
     }
 
     #contact{
-      margin-top: 40rem;
+      margin-top: 38rem;
+      padding-bottom: 2rem;
     }
 
     footer {
-      margin-bottom: 0rem;
+      margin-top: 10rem;
     }
 
     #profile {
@@ -450,7 +502,7 @@
       bottom: 45%;
       }
   }
-  @media screen and (max-width: 400px) {
+  /* @media screen and (max-width: 400px) {
     #projects {
       height: 1130vh;
       margin-bottom: 0rem;
@@ -473,11 +525,11 @@
       left: 40%;
       bottom: 45%;
       }
-  }
+  } */
   
   @media screen and (max-width: 390px) and (max-height: 844px) {
     #projects {
-      height: 920vh;
+      height: 80vh;
       margin-bottom: 1rem;
     }
 
@@ -498,17 +550,21 @@
       height: 90vh;
       margin-bottom: 5rem;
     }
+    #about {
+      height: 230vh;
+    }
     
     #projects {
-      margin-bottom: 0rem;
+      height: 1000vh;
     }
 
     #contact{
+      padding-top: 10rem;
       margin-top: 70rem;
     }
 
     footer {
-      margin-bottom: 1rem;
+      margin-bottom: 4rem;
     }
 
     .three-body{
@@ -541,11 +597,98 @@
     }
 
   }
+  @media screen and (max-width: 360px) and (max-height: 740px) {
+    #profile {
+      height: 90vh;
+      margin-bottom: 5rem;
+    }
+    #about{
+      height: 200vh;
+    }
+
+    #projects {
+      height: 1030vh;
+      margin-bottom: 0;
+    }
+
+    #contact{
+      padding-top: 0rem;
+      margin-top: 0;
+    }
+
+    footer {
+      padding-bottom: 2rem;
+    }
+
+    .three-body{
+    left: 40%;
+    bottom: 45%;
+    }
+
+  }
+  @media screen and (max-width: 360px) and (max-height: 640px) {
+    #profile {
+      height: 90vh;
+      margin-bottom: 5rem;
+    }
+    #about{
+      height: 240vh;
+    }
+
+    #projects {
+      height: 1200vh;
+      margin-bottom: 0;
+    }
+
+    #contact{
+      padding-top: 15rem;
+      margin-top: 0;
+    }
+
+    footer {
+      padding-bottom: 4rem;
+    }
+
+    .three-body{
+    left: 40%;
+    bottom: 45%;
+    }
+
+  }
+  @media screen and (max-width: 320px) and (max-height: 658px) {
+    #profile {
+      height: 90vh;
+      margin-bottom: 5rem;
+    }
+    #about{
+      height: 240vh;
+    }
+
+    #projects {
+      height: 1180vh;
+      margin-bottom: 0;
+    }
+
+    #contact{
+      padding-top: 11rem;
+      margin-top: 0;
+    }
+
+    footer {
+      padding-bottom: 4rem;
+    }
+
+    .three-body{
+    left: 40%;
+    bottom: 45%;
+    }
+
+  }
   
   
 
 
-  @media screen and (max-height: 740px) {
+  /* @media screen and (max-height: 740px) {
     #profile {
       height: 90vh;
       margin-bottom: 5rem;
@@ -627,5 +770,5 @@
     bottom: 45%;
     }
 
-  }
+  } */
 
