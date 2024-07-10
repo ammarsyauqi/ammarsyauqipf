@@ -1,4 +1,4 @@
-@media screen and (max-width: 2560px) and (max-height: 1440px){
+@media screen and (min-width: 2560px) {
     #about {
       height: 65vh;
       margin-bottom: 15rem;
@@ -14,7 +14,7 @@
       
     }
 }
-@media screen and (max-width: 1920px) and (max-height: 1080px){
+@media screen and (min-width: 1920px) {
     #about {
       height: 78vh;
       margin-bottom: 4rem;
@@ -30,39 +30,16 @@
       
     }
 }
-@media screen and (max-width: 1680px) {
+@media screen and (min-width: 1680px) {
     #projects {
       height: 350vh;
       margin-bottom: 3rem;
     }
 }
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1600px) {
     #projects {
       height: 399vh;
       margin-bottom: 3rem;
-    }
-}
-@media screen and (max-width: 1440px) and (max-height: 900px){
-    
-    #profile {
-      height: 83vh;
-      margin-bottom: 6rem;
-    }
-    #about {
-      height: 98vh;
-      margin-bottom: 1rem;
-    }
-    #experience {
-      padding-top: 2rem;
-      height: 90vh;
-      margin-bottom: 10rem;
-    }
-    #projects {
-      height: 370vh;
-      margin-bottom: 2rem;
-    }
-    .experience-details-container .details-container {
-      width: 352px;
     }
 }
 
@@ -82,6 +59,9 @@
     .about-containers {
       flex-wrap: wrap;
     }
+    .experience-details-container .details-container {
+      width: 352px;
+    }
 
     #about,
     #experience,
@@ -91,7 +71,7 @@
     }
   }
 
-  @media screen and (max-width: 1366px) and (max-height: 768px) {
+  @media screen and (min-width: 1366px) {
     #projects {
       height: 590vh;
       margin-bottom: 22rem;
@@ -105,7 +85,7 @@
     }
   }
   
-  @media screen and (max-width: 1280px) and (max-height: 1024px) {
+  @media screen and (min-width: 1280px) {
     #projects {
       height: 540vh;
       margin-bottom: 25rem;
@@ -119,7 +99,21 @@
       margin-bottom: 5rem;
     }
   }
-  @media screen and (max-width: 768px) and (max-height: 1024px) {
+
+  @media screen and (min-width: 800px) {
+    
+    #contact,
+    footer {
+      height: 50vh;
+      padding-bottom: 3rem;
+    }
+    .three-body{
+      left: 45%;
+      bottom: 55%;
+      }
+  }
+
+  @media screen and (min-width: 768px) {
     #about {
       padding: auto;
     }
@@ -200,7 +194,7 @@
       }
   }
 
-  @media screen and (max-width: 1024px) and (max-height: 1366px) {
+  @media screen and (min-width: 1024px) {
     #profile {
       height: 50vh;
       margin-bottom: 1rem;
@@ -229,7 +223,7 @@
       }
   }
   
-  @media screen and (max-width: 1024px) and (max-height: 768px) {
+  @media screen and (min-width: 1024px) {
     #projects {
       height: 320rem;
       margin-bottom: 22rem;
@@ -249,7 +243,7 @@
       }
   }
   
-  @media screen and (max-width: 820px) and (max-height: 1880px) {
+  @media screen and (min-width: 820px) {
     #contact {
       padding-top: 85rem;
     }
@@ -266,20 +260,8 @@
       bottom: 59%;
       }
   }
-  @media screen and (max-width: 800px) {
-    
-    #contact,
-    footer {
-      height: 50vh;
-      padding-bottom: 3rem;
-    }
-    .three-body{
-      left: 45%;
-      bottom: 55%;
-      }
-  }
 
-  @media screen and (max-width: 780px) {
+  @media screen and (min-width: 780px) {
     #profile {
       height: 62vh;
       margin-bottom: 2rem;
@@ -294,7 +276,7 @@
       bottom: 45%;
       }
   }
-  @media screen and (max-width: 720px) and (max-height: 1600px) {
+  @media screen and (min-width: 720px) {
     
     #profile {
       height: 45vh;
@@ -323,6 +305,9 @@
   }
 
   @media screen and (max-width: 712px) {
+    #projects {
+      height: 2200vh;
+    }
     #contact,
     footer {
       height: 45vh;
@@ -334,17 +319,17 @@
       }
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (min-width: 600px) {
     #contact,
     footer {
       height: 35vh;
     }
     #profile {
-      height: 70vh;
+      height: 80vh;
       margin-bottom: 5rem;
     }
     #projects {
-      height: 900vh;
+      height: 800vh;
       margin-bottom: 10rem;
     }
     article {
@@ -398,63 +383,23 @@
       }
   }
 
-  @media screen and (max-width: 430px) and (max-height: 932px) {
-    #about {
-      height: 140vh;
-    }
+  @media screen and (min-width: 420px) {
     #projects {
-      height: 855vh;
-      margin-bottom: 25rem;
+      height: 1105vh;
     }
-    #contact {
-      padding-top: 0;
-      padding-bottom: 20rem;
-    }
-    #contact,
-    footer {
-      height: 32vh;
-      margin-bottom: 0;
-    }
-    .three-body{
-      left: 40%;
-      bottom: 50%;
-      }
-  }
-  
-  @media screen and (max-width: 420px) {
-    #profile {
-      height: 70vh;
-      /* margin-bottom: 2rem; */
-    }
-
-    #projects {
-      height: 885vh;
-      margin-bottom: 5rem;
-    }
-
-    #contact,
-    footer {
-      height: 32vh;
-      padding-bottom: 1rem;
-    }
-
-    .three-body{
-      left: 40%;
-      bottom: 48%;
-      }
   }
 
-  @media screen and (max-width: 414px) and (max-height: 896px) {
+  @media screen and (max-width: 414px) {
     #profile {
       height: 80vh;
       margin-bottom: 2rem;
     }
     #about{
-      height: 120vh;
-      margin-bottom: 15rem;
+      height: 140vh;
+      margin-bottom: 25rem;
     }
     #projects {
-      height: 770vh;
+      height: 830vh;
     }
 
     #contact{
@@ -465,30 +410,20 @@
       margin-bottom: 0rem;
     }
 
-    
-
     .three-body{
       left: 40%;
       bottom: 45%;
       }
   }
-  @media screen and (max-width: 414px) and (max-height: 736px) {
-    #about{
-      height: 180vh;
-      margin-bottom: 15rem;
-    }
-    
+ 
+  @media screen and (max-width: 400px) {
     #projects {
-      height: 1330vh;
-      margin-bottom: 5rem;
+      height: 1080vh;
+      margin-bottom: 10rem;
     }
 
-    #contact{
-      margin-top: 38rem;
-      padding-bottom: 2rem;
-    }
-
-    footer {
+    #contact,
+    footer{
       margin-top: 10rem;
     }
 
@@ -496,28 +431,8 @@
       height: 80vh;
       margin-bottom: 5rem;
     }
-
-    .three-body{
-      left: 40%;
-      bottom: 45%;
-      }
-  }
-  /* @media screen and (max-width: 400px) {
-    #projects {
-      height: 1130vh;
-      margin-bottom: 0rem;
-    }
-
-    #contact{
-      margin-top: 14rem;
-    }
-
-    footer {
-      margin-bottom: 1rem;
-    }
-
-    #profile {
-      height: 80vh;
+    #about {
+      height: 210vh;
       margin-bottom: 5rem;
     }
 
@@ -525,11 +440,18 @@
       left: 40%;
       bottom: 45%;
       }
-  } */
+  }
   
-  @media screen and (max-width: 390px) and (max-height: 844px) {
+  @media screen and (max-width: 390px) {
+    #profile {
+      height: 85vh;
+    }
+    #about {
+      height: 230vh;
+    }
+    
     #projects {
-      height: 80vh;
+      height: 1060vh;
       margin-bottom: 1rem;
     }
 
@@ -545,103 +467,23 @@
       }
   }
 
-  @media screen and (max-width: 375px) and (max-height: 667px) {
-    #profile {
-      height: 90vh;
-      margin-bottom: 5rem;
-    }
-    #about {
-      height: 230vh;
-    }
-    
-    #projects {
-      height: 1000vh;
-    }
-
-    #contact{
-      padding-top: 10rem;
-      margin-top: 70rem;
-    }
-
-    footer {
-      margin-bottom: 4rem;
-    }
-
-    .three-body{
-    left: 40%;
-    bottom: 45%;
-    }
-  }
-  @media screen and (max-width: 360px) and (max-height: 800px) {
-    #profile {
-      height: 90vh;
-      margin-bottom: 5rem;
-    }
-    
-    #projects {
-      height: 820vh;
-      margin-bottom: 10rem;
-    }
-
-    #contact{
-      margin-top: 72rem;
-    }
-
-    footer {
-      margin-bottom: 1rem;
-    }
-
-    .three-body{
-    left: 40%;
-    bottom: 45%;
-    }
-
-  }
-  @media screen and (max-width: 360px) and (max-height: 740px) {
+  
+  @media screen and (max-width: 320px) {
     #profile {
       height: 90vh;
       margin-bottom: 5rem;
     }
     #about{
-      height: 200vh;
+      height: 245vh;
     }
 
     #projects {
-      height: 1030vh;
+      height: 1080vh;
       margin-bottom: 0;
     }
 
     #contact{
-      padding-top: 0rem;
-      margin-top: 0;
-    }
-
-    footer {
-      padding-bottom: 2rem;
-    }
-
-    .three-body{
-    left: 40%;
-    bottom: 45%;
-    }
-
-  }
-  @media screen and (max-width: 360px) and (max-height: 640px) {
-    #profile {
-      height: 90vh;
-      margin-bottom: 5rem;
-    }
-    #about{
-      height: 240vh;
-    }
-
-    #projects {
-      height: 1200vh;
-      margin-bottom: 0;
-    }
-
-    #contact{
-      padding-top: 15rem;
+      padding-top: 1rem;
       margin-top: 0;
     }
 
@@ -655,120 +497,4 @@
     }
 
   }
-  @media screen and (max-width: 320px) and (max-height: 658px) {
-    #profile {
-      height: 90vh;
-      margin-bottom: 5rem;
-    }
-    #about{
-      height: 240vh;
-    }
-
-    #projects {
-      height: 1180vh;
-      margin-bottom: 0;
-    }
-
-    #contact{
-      padding-top: 11rem;
-      margin-top: 0;
-    }
-
-    footer {
-      padding-bottom: 4rem;
-    }
-
-    .three-body{
-    left: 40%;
-    bottom: 45%;
-    }
-
-  }
-  
-  
-
-
-  /* @media screen and (max-height: 740px) {
-    #profile {
-      height: 90vh;
-      margin-bottom: 5rem;
-    }
-    
-    #projects {
-      height: 1020vh;
-      margin-bottom: 5rem;
-    }
-
-    #contact,
-    footer {
-      height: 34vh;
-      padding-bottom: 2rem;
-    }
-
-    .three-body{
-    left: 40%;
-    bottom: 45%;
-    }
-
-  }
-  
-  @media screen and (max-height: 640px) {
-    #profile {
-      height: 90vh;
-      margin-bottom: 5rem;
-    }
-    
-    #projects {
-      height: 1190vh;
-      margin-bottom: 5rem;
-    }
-
-    #contact,
-    footer {
-      height: 34vh;
-      padding-bottom: 4rem;
-    }
-
-    .three-body{
-    left: 40%;
-    bottom: 45%;
-    }
-
-  }
-
-  @media screen and (max-height: 658px) {
-    #projects{
-      height: 1190vh;
-    }
-    .contact-info-upper-container {
-      width: 98.5%;
-    }
-    #contact,
-    footer {
-      height: 34vh;
-      padding-bottom: 3rem;
-    }
-    .three-body{
-    left: 38%;
-    bottom: 45%;
-    }
-
-  }
-
-  @media screen and (max-height: 640px) {
-    #projects{
-      height: 1190vh;
-      margin-bottom: 10rem;
-    }
-    #contact,
-    footer {
-      height: 40vh;
-      padding-bottom: 2rem;
-    }
-    .three-body{
-    left: 38%;
-    bottom: 45%;
-    }
-
-  } */
 
