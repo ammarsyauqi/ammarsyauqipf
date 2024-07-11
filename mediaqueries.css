@@ -1,50 +1,14 @@
-@media screen and (max-width: 2560px) {
-    #profile {
-      height: 100vh;
-      margin-bottom: 1rem;
-    }
-    #about {
-      height: 100vh;
-      margin-bottom: 1rem;
-    }
-    #projects {
-      height: 635vh;
-      margin-bottom: 3rem;
-    }
-    #experience {
-      height: 100vh;
-      padding-top: 8rem;
-      margin-bottom: 4rem;
-      
-    }
-}
-@media screen and (max-width: 1920px) {
-    #about {
-      height: 110vh;
-      margin-bottom: 4rem;
-    }
-    #projects {
-      height: 515vh;
-      margin-bottom: 3rem;
-    }
-    #experience {
-      height: 100vh;
-      padding-top: 8rem;
-      margin-bottom: 4rem;
-      
-    }
-}
+
 @media screen and (max-width: 1680px) {
     #about {
-      height: 110vh;
-      margin-bottom: 3rem;
+      height: 130vh;
     }
     #experience {
       height: 110vh;
       margin-bottom: 3rem;
     }
     #projects {
-      height: 490vh;
+      height: 495vh;
       margin-bottom: 3rem;
     }
 }
@@ -117,11 +81,8 @@
   
   @media screen and (max-width: 1280px) {
     #projects {
-      height: 540vh;
+      height: 580vh;
       margin-bottom: 25rem;
-    }
-    #contact {
-      padding-bottom: 20rem;
     }
     #contact,
     footer {
@@ -129,6 +90,7 @@
       margin-bottom: 5rem;
     }
   }
+ 
 
   @media screen and (max-width: 800px) {
     
@@ -144,8 +106,10 @@
   }
 
   @media screen and (max-width: 768px) {
+    
+    
     #about {
-      padding: auto;
+      height: 200vh;
     }
     #experience {
       padding-top: 20rem;
@@ -419,12 +383,17 @@
       }
   }
 
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 430px) {
     #about {
-      height: 160vh;
+      height: 120vh;
     }
     #projects {
-      height: 1005vh;
+      height: 780vh;
+    }
+    #contact,
+    footer {
+      height: 31vh;
+
     }
   }
   @media screen and (max-width: 420px) {
@@ -443,15 +412,14 @@
       margin-bottom: 25rem;
     }
     #projects {
-      height: 760vh;
+      height: 790vh;
+      
     }
 
-    #contact{
-      margin-top: 40rem;
-    }
-
+    #contact,
     footer {
-      margin-bottom: 0rem;
+      height: 31vh;
+
     }
 
     .three-body{
@@ -491,11 +459,11 @@
       height: 85vh;
     }
     #about {
-      height: 200vh;
+      height: 145vh;
     }
     
     #projects {
-      height: 950vh;
+      height: 840vh;
       margin-bottom: 10rem;
     }
 
@@ -514,8 +482,25 @@
       }
   }
 
+  @media screen and (max-width: 375px) {
+    
+    #about {
+      height: 195vh;
+    }
+    
+    #projects {
+      height: 1050vh;
+      margin-bottom: 0;
+    }
+    
+    #contact,
+    footer {
+      margin-bottom: 2rem;
+    }
+  }
+
   
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 360px) {
     #profile {
       height: 90vh;
       margin-bottom: 5rem;
@@ -525,7 +510,7 @@
     }
 
     #projects {
-      height: 1000vh;
+      height: 1105vh;
       margin-bottom: 0;
     }
 
@@ -544,4 +529,4 @@
     }
 
   }
-
+ 
