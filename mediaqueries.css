@@ -958,6 +958,28 @@
       bottom: 49%;
       }
   }
+  @media screen and (device-width: 412px) and (device-height: 914px) {
+    #profile {
+      height: 50vh;
+    }
+    #about {
+      height: 120vh;
+      margin-bottom: 30rem;
+    }
+    
+    #projects {
+      height: 870vh;
+      margin-bottom: 15rem;
+    }
+    #contact,
+    footer {
+      height: 10vh;
+    }
+    .three-body{
+      left: 40%;
+      bottom: 49%;
+      }
+  }
   @media screen and (device-width: 414px) and (device-height: 896px) {
     #profile {
       height: 50vh;
@@ -1109,4 +1131,5 @@
       bottom: 49%;
     }
   }
+  
   
