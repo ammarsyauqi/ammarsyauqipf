@@ -62,12 +62,12 @@
       margin-bottom: 6rem;
     }
     #about {
-      height: 120vh;
+      height: 100vh;
       margin-bottom: 6rem;
     }
     #experience {
-      height: 120vh;
-      margin-bottom: 6rem;
+      height: 80vh;
+      margin-bottom: 10rem;
     }
     #projects {
       height: 360vh;
@@ -124,16 +124,8 @@
       height: 580vh;
       margin-bottom: 25rem;
     }
-    #contact,
-    footer {
-      height: 15vh; 
-      margin-bottom: 5rem;
-    }
-  }
-  @media screen and (max-width: 1200px) {
-    #projects {
-      height: 480vh;
-      margin-bottom: 25rem;
+    #contact{
+      padding-bottom: 15rem;
     }
     #contact,
     footer {
@@ -141,66 +133,7 @@
       margin-bottom: 5rem;
     }
   }
-  @media screen and (max-width: 1200px) {
-    #projects {
-      height: 480vh;
-      margin-bottom: 25rem;
-    }
-    #contact,
-    footer {
-      height: 15vh; 
-      margin-bottom: 5rem;
-    }
-  }
-  @media screen and (max-width: 1162px) {
-    #projects {
-      height: 600vh;
-      margin-bottom: 25rem;
-    }
-    #contact,
-    footer {
-      height: 15vh; 
-      margin-bottom: 5rem;
-    }
-  }
- 
 
-  @media screen and (max-width: 800px) {
-    
-    #contact,
-    footer {
-      height: 50vh;
-      padding-bottom: 3rem;
-    }
-    .three-body{
-      left: 45%;
-      bottom: 55%;
-      }
-  }
-
-  @media screen and (max-width: 768px) {
-    
-    
-    #about {
-      height: 200vh;
-    }
-    #experience {
-      padding-top: 20rem;
-    }
-
-    #contact {
-      position: relative;
-      top: 39rem;
-
-    }
-
-    footer  {
-      padding-top: 30rem;
-      margin-bottom: 0;
-    }
-    
-  }
-  
   @media screen and (max-width: 1200px) {
 
     #desktop-nav {
@@ -248,11 +181,13 @@
       margin: 0 5%;
     }
     #projects {
-      margin-bottom: 10rem;
+      height: 480vh;
+      margin-bottom: 15rem;
     }
     #contact,
     footer {
-      height: 25vh;
+      height: 15vh; 
+      margin-bottom: 5rem;
       
     }
     .three-body{
@@ -261,8 +196,17 @@
       }
   }
 
-  
-  
+  @media screen and (max-width: 1162px) {
+    #projects {
+      height: 600vh;
+      margin-bottom: 10rem;
+    }
+    #contact,
+    footer {
+      height: 15vh; 
+      margin-bottom: 5rem;
+    }
+  }
   
   @media screen and (max-width: 1024px) {
     #profile {
@@ -460,6 +404,20 @@
       }
   }
 
+  @media screen and (max-width: 800px) {
+    
+    #contact,
+    footer {
+      height: 50vh;
+      padding-bottom: 3rem;
+    }
+    .three-body{
+      left: 45%;
+      bottom: 55%;
+      }
+  }
+
+  
   @media screen and (max-width: 780px) {
     #profile {
       height: 80vh;
@@ -470,7 +428,7 @@
       margin-bottom: 25rem;
     }
     #projects {
-      height: 780vh;
+      height: 980vh;
       margin-bottom: 5rem;
     }
 
@@ -524,13 +482,14 @@
   @media screen and (max-width: 600px) {
     #about {
       height: 95vh;
+      margin-bottom: 30rem;
     }
     #profile {
       height: 80vh;
       margin-bottom: 5rem;
     }
     #projects {
-      height: 550vh;
+      height: 600vh;
       margin-bottom: 30rem;
     }
     #contact {
@@ -539,7 +498,8 @@
     }
     #contact,
     footer {
-      height: 30vh;
+      height: 20vh;
+      margin-bottom: 2rem;
     }
     article {
       font-size: 1rem;
@@ -629,7 +589,7 @@
       margin-bottom: 2rem;
     }
     #about{
-      height: 100vh;
+      height: 120vh;
       margin-bottom: 25rem;
     }
     #projects {
@@ -658,11 +618,11 @@
       margin-bottom: 2rem;
     }
     #about{
-      height: 100vh;
+      height: 120vh;
       margin-bottom: 25rem;
     }
     #projects {
-      height: 810vh;
+      height: 830vh;
       margin-bottom: 0rem;
     }
 
@@ -681,18 +641,18 @@
       bottom: 45%;
       }
   }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 430px)  {
     #profile {
-      height: 80vh;
-      margin-bottom: 2rem;
+      height: 100vh;
+      margin-bottom: 19rem;
     }
     #about{
-      height: 100vh;
+      height: 120vh;
       margin-bottom: 25rem;
     }
     #projects {
-      height: 800vh;
-      margin-bottom: 20rem;
+      height: 860vh;
+      margin-bottom: 15rem;
     }
 
     #contact {
@@ -701,7 +661,36 @@
     }
     #contact,
     footer {
-      height: 31vh;
+      height: 25vh;
+
+    }
+
+    .three-body{
+      left: 40%;
+      bottom: 45%;
+      }
+  }
+  @media screen and (max-width: 414px) {
+    #profile {
+      height: 80vh;
+      margin-bottom: 20rem;
+    }
+    #about{
+      height: 130vh;
+      margin-bottom: 25rem;
+    }
+    #projects {
+      height: 860vh;
+      margin-bottom: 0rem;
+    }
+
+    #contact {
+      margin-bottom: 8rem;
+      padding: 0;
+    }
+    #contact,
+    footer {
+      height: 25vh;
 
     }
 
@@ -720,40 +709,41 @@
 
     #profile {
       height: 80vh;
-      margin-bottom: 5rem;
+      margin-bottom: 20rem;
     }
     #about {
       height: 110vh;
       margin-bottom: 20rem;
     }
-
+    
     .three-body{
       left: 40%;
       bottom: 45%;
       }
   }
   
-  @media screen and (max-width: 390px) {
+  @media screen and (max-width: 390px)  {
     #profile {
       height: 80vh;
-      margin-bottom: 2rem;
+      margin-bottom: 20rem;
     }
     #about{
-      height: 120vh;
+      height: 140vh;
       margin-bottom: 25rem;
     }
     #projects {
-      height: 790vh;
-      margin-bottom: 0rem;
+      height: 920vh;
+      margin-bottom: 4rem;
     }
 
     #contact {
       margin-bottom: 8rem;
-      padding: 0;
+      
     }
     #contact,
     footer {
-      height: 31vh;
+      height: 25vh;
+      margin-bottom: 1rem;
 
     }
 
@@ -768,43 +758,39 @@
       height: 80vh;
       margin-bottom: 2rem;
     }
-    #about{
+    #about {
       height: 130vh;
       margin-bottom: 25rem;
     }
     #projects {
-      height: 820vh;
-      margin-bottom: 0rem;
+      height: 1140vh;
+      margin-bottom: 10rem;
     }
-
-    #contact {
-      margin-bottom: 8rem;
-      padding: 0;
-    }
+  
     #contact,
     footer {
       height: 31vh;
-
     }
-
-    .three-body{
+  
+    .three-body {
       left: 40%;
       bottom: 45%;
-      }
+    }
   }
+  
 
   
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 360px){
     #profile {
       height: 80vh;
       margin-bottom: 2rem;
     }
     #about{
-      height: 130vh;
+      height: 180vh;
       margin-bottom: 25rem;
     }
     #projects {
-      height: 800vh;
+      height: 1030vh;
       margin-bottom: 0rem;
     }
 
@@ -834,3 +820,200 @@
       margin-bottom: 20rem;
     }
   }
+  
+  
+  @media screen and (max-width: 430px) and (max-height: 932px) {
+    #profile {
+      height: 45vh;
+    }
+    #about {
+      height: 115vh;
+      margin-bottom: 30rem;
+    }
+    
+    #projects {
+      height: 870vh;
+      margin-bottom: 15rem;
+    }
+    #contact,
+    footer {
+      height: 8vh;
+    }
+    .three-body{
+      left: 40%;
+      bottom: 49%;
+      }
+  }
+  @media screen and (max-width: 412px) and (max-height: 915px) {
+    #profile {
+      height: 50vh;
+    }
+    #about {
+      height: 120vh;
+      margin-bottom: 30rem;
+    }
+    
+    #projects {
+      height: 870vh;
+      margin-bottom: 15rem;
+    }
+    #contact,
+    footer {
+      height: 10vh;
+    }
+    .three-body{
+      left: 40%;
+      bottom: 49%;
+      }
+  }
+  @media screen and (max-width: 414px) and (max-height: 896px) {
+    #profile {
+      height: 50vh;
+    }
+    #about {
+      height: 120vh;
+      margin-bottom: 30rem;
+    }
+    
+    #projects {
+      height: 880vh;
+      margin-bottom: 15rem;
+    }
+    #contact,
+    footer {
+      height: 10vh;
+    }
+    .three-body{
+      left: 40%;
+      bottom: 49%;
+      }
+  }
+  @media screen and (max-width: 344px) and (max-height: 882px) {
+    #profile {
+      height: 50vh;
+    }
+    #about {
+      height: 150vh;
+      margin-bottom: 30rem;
+    }
+    
+    #projects {
+      height: 890vh;
+      margin-bottom: 15rem;
+    }
+    #contact,
+    footer {
+      height: 10vh;
+    }
+    .three-body{
+      left: 40%;
+      bottom: 49%;
+      }
+  }
+  @media screen and (max-width: 390px) and (max-height: 844px) {
+    #profile {
+      height: 50vh;
+    }
+    #about {
+      height: 130vh;
+      margin-bottom: 30rem;
+    }
+    
+    #projects {
+      height: 900vh;
+      margin-bottom: 20rem;
+    }
+    #contact {
+      margin-bottom: 8rem;
+
+    }
+    #contact,
+    footer {
+      height: 10vh;
+    }
+    .three-body{
+      left: 40%;
+      bottom: 49%;
+      }
+  }
+  @media screen and (max-width: 360px) and (max-height: 740px) {
+    #profile {
+      height: 55vh;
+    }
+    #about {
+      height: 170vh;
+      margin-bottom: 30rem;
+    }
+    
+    #projects {
+      height: 1000vh;
+      margin-bottom: 15rem;
+    }
+    #contact,
+    footer {
+      height: 11vh;
+    }
+    .three-body{
+      left: 40%;
+      bottom: 49%;
+      }
+  }
+  @media screen and (max-width: 375px) and (max-height: 667px) {
+    #profile {
+      height: 60vh;
+    }
+    #about {
+      height: 200vh;
+      margin-bottom: 25rem;
+    }
+    
+    #projects {
+      height: 1130vh;
+      margin-bottom: 20rem;
+    }
+    .three-body{
+      left: 40%;
+      bottom: 49%;
+      }
+  }
+  @media screen and (max-width: 320px) and (max-height: 658px) {
+    #profile {
+      height: 60vh;
+    }
+    #about {
+      height: 200vh;
+      margin-bottom: 30rem;
+    }
+    
+    #projects {
+      height: 1150vh;
+      margin-bottom: 20rem;
+    }
+    .three-body{
+      left: 40%;
+      bottom: 49%;
+      }
+  }
+  @media screen and (max-width: 360px) and (max-height: 640px) {
+    #profile {
+      height: 70vh;
+    }
+    #about {
+      height: 250vh;
+      margin-bottom: 0rem;
+    }
+    
+    #projects {
+      height: 1150vh;
+      margin-bottom: 20rem;
+    }
+    #contact,
+    footer {
+      height: 11vh;
+    }
+    .three-body{
+      left: 40%;
+      bottom: 49%;
+    }
+  }
+  
