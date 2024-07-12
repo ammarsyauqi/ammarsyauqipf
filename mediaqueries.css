@@ -821,8 +821,100 @@
     }
   }
   
-  
-  @media screen and (max-width: 430px) and (max-height: 932px) {
+  @media screen and (device-width: 1024px) and (device-height: 1366px) {
+    #profile {
+      height: 53vh;
+    }
+    #about {
+      height: 20vh;
+    }
+    #projects {
+      height: 370vh;
+      margin-bottom: 20rem;
+    }
+    .three-body{
+      left: 45%;
+      bottom: 50%;
+      }
+  }
+  @media screen and (device-width: 800px) and (device-height: 1280px) {
+    #profile {
+      height: 53vh;
+    }
+    #about {
+      height: 25vh;
+    }
+    #projects {
+      height: 490vh;
+      margin-bottom: 25rem;
+    }
+    #contact,
+    footer {
+      height: 11vh;
+      margin-bottom: 10rem;
+
+    }
+    .three-body{
+      left: 45%;
+      bottom: 50%;
+      }
+  }
+  @media screen and (device-width: 820px) and (device-height: 1180px) {
+    #profile {
+      height: 40vh;
+      margin-bottom: 20rem;
+    }
+    #projects {
+      height: 530vh;
+      margin-bottom: 20rem;
+    }
+    .three-body{
+      left: 45%;
+      bottom: 49%;
+      }
+  }
+  @media screen and (device-width: 712px) and (device-height: 1138px) {
+    #profile {
+      height: 40vh;
+      margin-bottom: 20rem;
+    }
+    #about {
+      height: 75vh;
+      margin-bottom: 20rem;
+    }
+    #projects {
+      height: 760vh;
+      margin-bottom: 20rem;
+    }
+    #contact,
+    footer {
+      height: 11vh;
+    }
+    .three-body{
+      left: 45%;
+      bottom: 49%;
+      }
+  }
+  @media screen and (device-width: 768px) and (device-height: 1024px) {
+    #about {
+      height: 70vh;
+      margin-bottom: 30rem;
+    }
+    
+    #projects {
+      height: 670vh;
+      margin-bottom: 20rem;
+    }
+    #contact,
+    footer {
+      height: 10vh;
+    }
+    .three-body{
+      left: 45%;
+      bottom: 49%;
+      }
+  }
+  @media screen and (device-width: 430px) and (device-height: 932px) {
     #profile {
       height: 45vh;
     }
@@ -844,7 +936,7 @@
       bottom: 49%;
       }
   }
-  @media screen and (max-width: 412px) and (max-height: 915px) {
+  @media screen and (device-width: 412px) and (device-height: 915px) {
     #profile {
       height: 50vh;
     }
@@ -888,7 +980,7 @@
       bottom: 49%;
       }
   }
-  @media screen and (max-width: 344px) and (max-height: 882px) {
+  @media screen and (device-width: 344px) and (device-height: 882px) {
     #profile {
       height: 50vh;
     }
@@ -910,7 +1002,7 @@
       bottom: 49%;
       }
   }
-  @media screen and (max-width: 390px) and (max-height: 844px) {
+  @media screen and (device-width: 390px) and (device-height: 844px) {
     #profile {
       height: 50vh;
     }
@@ -936,7 +1028,7 @@
       bottom: 49%;
       }
   }
-  @media screen and (max-width: 360px) and (max-height: 740px) {
+  @media screen and (device-width: 360px) and (device-height: 740px) {
     #profile {
       height: 55vh;
     }
@@ -958,7 +1050,7 @@
       bottom: 49%;
       }
   }
-  @media screen and (max-width: 375px) and (max-height: 667px) {
+  @media screen and (device-width: 375px) and (device-height: 667px) {
     #profile {
       height: 60vh;
       margin-bottom: 20rem;
@@ -977,7 +1069,7 @@
       bottom: 49%;
       }
   }
-  @media screen and (max-width: 320px) and (max-height: 658px) {
+  @media screen and (device-width: 320px) and (device-height: 658px) {
     #profile {
       height: 60vh;
     }
@@ -995,7 +1087,7 @@
       bottom: 49%;
       }
   }
-  @media screen and (max-width: 360px) and (max-height: 640px) {
+  @media screen and (device-width: 360px) and (device-height: 640px) {
     #profile {
       height: 70vh;
     }
