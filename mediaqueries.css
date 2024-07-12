@@ -703,6 +703,34 @@
       bottom: 45%;
       }
   }
+  @media screen and (max-height: 896px) {
+    #profile {
+      height: 80vh;
+      margin-bottom: 2rem;
+    }
+    #about{
+      height: 100vh;
+      margin-bottom: 25rem;
+    }
+    #projects {
+      height: 850vh;
+      margin-bottom: 0rem;
+    }
+
+    #contact {
+      padding-bottom: 20rem;
+    }
+    #contact,
+    footer {
+      height: 31vh;
+
+    }
+
+    .three-body{
+      left: 40%;
+      bottom: 45%;
+      }
+  }
  
   @media screen and (max-width: 400px) {
     #projects {
